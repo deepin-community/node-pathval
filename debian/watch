@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-pathval-$1.tar.gz/ \
+https://github.com/chaijs/pathval/releases .*/v?([\d\.]+).tar.gz

@@ -1,0 +1,73 @@
+node-pathval (1.1.1-2) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 28 Aug 2021 22:07:27 +0200
+
+node-pathval (1.1.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-pathval: Add Multi-Arch: foreign.
+  * Set upstream metadata fields: Repository.
+
+  [ lintian-brush ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.1
+  * New upstream version 1.1.1
+  * Drop patch, now included in upstream
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 26 Jan 2021 15:32:07 +0100
+
+node-pathval (1.1.0-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Repository.
+  * Update standards version to 4.2.1, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Fix prototype pollution (Closes: #972895, CVE-2020-7751)
+  * Use dh-sequence-nodejs
+  * Update copyright
+  * Enable upstream test using mocha
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 25 Oct 2020 22:29:15 +0100
+
+node-pathval (1.1.0-3) unstable; urgency=medium
+
+  * Point d/watch to /releases instead of /tags.
+  * Bump std-ver to 4.2.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 16 Aug 2018 08:15:44 +0200
+
+node-pathval (1.1.0-2) unstable; urgency=medium
+
+  * Use node instead of nodejs in d/tests/require.
+  * Uscan is now version 4.
+  * Use my debian.org mail address.
+  * Point Vcs-* fields to salsa.
+  * Bump dh compat to 11.
+  * Bump std-ver to 4.1.5.
+  * Move to section javascript.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 07 Aug 2018 11:28:08 +0200
+
+node-pathval (1.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #872548)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 18 Aug 2017 14:28:04 +0200
