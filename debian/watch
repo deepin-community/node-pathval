@@ -1,5 +1,8 @@
 version=4
 opts=\
 dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-pathval-$1.tar.gz/ \
-https://github.com/chaijs/pathval/releases .*/v?([\d\.]+).tar.gz
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-pathval-$1/ \
+https://github.com/chaijs/pathval/tags .*/v?([\d\.]+).tar.gz group
+
+opts="searchmode=plain,component=types-pathval,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-pathval-$1/" \
+ https://registry.npmjs.org/@types/pathval https://registry.npmjs.org/@types/pathval/-/pathval-([\d\.]+)@ARCHIVE_EXT@ group

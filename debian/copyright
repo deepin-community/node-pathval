@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: pathval
 Upstream-Contact: https://github.com/chaijs/pathval/issues
 Source: https://github.com/chaijs/pathval
+ https://registry.npmjs.org/@types/pathval
 
 Files: *
 Copyright: 2011-2014 Jake Luer <jake@alogicalparadox.com>
@@ -15,6 +16,10 @@ License: Expat
 
 Files: debian/tests/test_modules/simple-assert/*
 Copyright: 2012 Jake Luer <jake@alogicalparadox.com>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat

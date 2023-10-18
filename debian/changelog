@@ -1,3 +1,13 @@
+node-pathval (1.1.1+~1.1.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Fix filenamemangle
+  * Replace /releases by /tags in GitHub urls
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Mon, 31 Oct 2022 12:22:20 +0100
+
 node-pathval (1.1.1-2) unstable; urgency=medium
 
   * Fix d/watch.

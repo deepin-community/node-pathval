@@ -7,7 +7,7 @@ Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs
  , mocha <!nocheck>
  , node-assertion-error <!nocheck>
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-pathval
 Vcs-Git: https://salsa.debian.org/js-team/node-pathval.git
 Homepage: https://github.com/chaijs/pathval
@@ -17,6 +17,7 @@ Rules-Requires-Root: no
 Package: node-pathval
 Architecture: all
 Depends: ${misc:Depends}
+Provides: ${nodejs:Provides}
 Multi-Arch: foreign
 Description: Node.js module for object value access from a path
  This module is a tool to access Object values given a string path,
